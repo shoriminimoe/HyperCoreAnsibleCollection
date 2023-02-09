@@ -96,3 +96,23 @@ releases:
     fragments:
     - release_110.yml
     release_date: '2023-01-10'
+  1.1.1:
+    changes:
+      major_changes:
+      - Added dns_config and dns_config_info modules. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/73)
+      - Added smtp and smtp_info modules. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/93)
+      - Added support_tunnel module. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/92)
+      - Added support_tunnel_info module. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/92)
+      - Added time_server and time_server_info modules. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/82)
+      - Added time_zone and time_zone_info modules. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/82)
+      - Added user module. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/79)
+      - Added user_info module. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/74)
+    fragments:
+    - 73_dns_config_modules.yml
+    - smtp_modules.yml
+    - support_tunnel_modules.yml
+    - time_server_modules.yml
+    - time_zone_modules.yml
+    - user_info_module.yml
+    - user_module.yml
+    release_date: '2023-02-08'

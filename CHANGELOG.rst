@@ -5,6 +5,21 @@ Scale_Computing.Hypercore Release Notes
 .. contents:: Topics
 
 
+v1.1.1
+======
+
+Major Changes
+-------------
+
+- Added dns_config and dns_config_info modules. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/73)
+- Added smtp and smtp_info modules. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/93)
+- Added support_tunnel module. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/92)
+- Added support_tunnel_info module. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/92)
+- Added time_server and time_server_info modules. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/82)
+- Added time_zone and time_zone_info modules. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/82)
+- Added user module. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/79)
+- Added user_info module. (https://github.com/ScaleComputing/HyperCoreAnsibleCollection/pull/74)
+
 v1.1.0
 ======
 
