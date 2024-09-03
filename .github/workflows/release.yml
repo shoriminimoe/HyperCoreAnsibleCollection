@@ -75,7 +75,7 @@ jobs:
           ANSIBLE_GALAXY_SERVER_AUTOMATION_HUB_TOKEN: ${{ secrets.AUTOMATION_HUB_API_KEY }}
         with:
           api_key: ${{ secrets.AUTOMATION_HUB_API_KEY }}
-          api_server: automation_hub
+          api_server: https://console.redhat.com/api/automation-hub/
 
   publish-docs:
     needs: release
